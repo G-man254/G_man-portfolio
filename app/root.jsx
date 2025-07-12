@@ -41,7 +41,7 @@ export function Layout({ children }) {
         {children}
         <ScrollRestoration />
         <Scripts />
-        <footer className="text-white mt-8">
+        <footer className="text-white">
           <div className="bg-gradient-to-b from-sky-300 to-sky-600 place-items-center py-3">
             <ul className="flex gap-10">
               <li className="hover:scale-110 hover:bg-gray-200 p-2 rounded-md">

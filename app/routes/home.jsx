@@ -11,25 +11,28 @@ export function meta() {
 
 export default function Home() {
   return (
-    <main>
-      <div className="flex w-full gap-5 h-screen p-10 place-items-center">
-        <div className="w-full h-full border border-white">
-          <img src="images/portfolio.jpeg" alt="G-man254" className="w-[400px] h-[300px]"/>
+    <main className="bg-gray-900 pb-5 lg:pb-5 h-fit">
+      <div className="block lg:flex w-full gap-5 lg:h-screen p-5 lg:p-10 place-items-center">
+        <div className="w-full h-full border border-white flex justify-center items-center">
+          <img src="images/portfolio.jpeg" alt="G-man254" className="w-[150px] h-[130px] rounded-4xl lg:w-full lg:h-[300px] border-2 lg:rounded-2xl"/>
         </div>
-        <div className="px-20">
-          <h1 className="text-6xl">Dennis Gitau Kariuki</h1>
-          <p className="uppercase text-2xl mt-5">full-stack developer | ai enthusiast</p>
+        <div className="px-10 lg:px-20">
+          <div className="text-center">
+            <h1 className="text-4xl md:text-6xl mt-8 lg:text-6xl animate-pulse">Dennis Gitau Kariuki</h1>
+            <p className="uppercase text-lg md:text-xl mt-5">full-stack developer | ai enthusiast</p>
+
+          </div>
           {/* <p>A passionate and dedicated junior web developer propelled by the ever evolving world of technology and its unlimited possibilities.</p> */}
 
-          <p className="text-lg mt-8">I'm a full stack developer with a passion for building innovative solutions using adavanced technologies. I'm always eager to learn and explore new ideas about Artificial Intelligence and machine learning. I'm an avid learner of new programming languages and technologies, always seeking opportunities to apply my skills in real-world projects with a championing spirit to excel and I'm excited to share my skills and experience with you.</p>
-          <Button to="/about" text = "About me" />
+          <p className="text-lg mt-8 xl:text-xl">I'm a full stack developer with a passion for building innovative solutions using adavanced technologies. I'm always eager to learn and explore new ideas about Artificial Intelligence and machine learning. I'm an avid learner of new programming languages and technologies, always seeking opportunities to apply my skills in real-world projects with a championing spirit to excel and I'm excited to share my skills and experience with you.</p>
+          <Button path="/about" text = "About me"/>
         </div>
       </div>
-      <div className="mx-auto h-screen">
-        <h2 className="text-center text-4xl mt-8">My skill set</h2>
-        <div className="grid grid-cols-3 gap-8 mt-8 p-8">
-          <section className="bg-gradient-to-bl from-gray-400 to-gray-700 place-items-center p-5 rounded-md">
-            <MonitorCog className="h-[50px] w-[50px]"/>
+      <div className="mx-5 rounded-xl mt-4 pt-3 lg:pb-10 bg-gray-800">
+        <h2 className="text-center text-4xl mt-4">My skill set</h2>
+        <div className="grid grid-cols-1 gap-x-10 gap-y-20 mt-8 p-8 md:grid-cols-2 max-w-8xl lg:grid-cols-3">
+          <section className="bg-gradient-to-bl from-gray-400 to-gray-700 place-items-center p-5 rounded-md transform md:scale-95 md:hover:scale-100 transition-transform duration-300 ease-in-out shadow-[0_10px_30px_rgba(0,0,0,0.2)] hover:shadow-xl hover:ring-1 md:hover:ring-2 hover:ring-blue-400">
+            <MonitorCog className="h-[50px] w-[50px] text-blue-400"/>
             <h3 className="font-bold mt-5 uppercase">critical thinking and solving technical problems</h3>
             <p>Adept at critical thinking and solving complex technical problems through structured analysis, creative solutions, and a user-focused approach.
             </p>
