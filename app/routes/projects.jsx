@@ -78,7 +78,7 @@ const Portfolio = () => {
           <section className="mt-10 bg-gray-700 p-10 rounded-lg text-center">
             <h2 className="text-2xl font-semibold mb-4">Do you have an idea in mind? 'SAY IT, I MAKE IT.'</h2>
             <p className="text-gray-300 mb-5">Feel free to get in touch with me</p>
-            <a href="/contact" className="text-blue-400 bg-sky-200 py-2 px-3 rounded-xl hover:bg-black hover:text-white">Contact me</a>
+            <a href="/contact" className="text-blue-400 bg-sky-200 py-2 px-3 rounded-xl hover:bg-blue-400 hover:text-white">Contact me</a>
           </section>
         </div>
       </div>

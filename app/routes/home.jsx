@@ -14,7 +14,7 @@ export default function Home() {
     <main className="bg-gray-900 pb-5 lg:pb-5 h-fit">
       <div className="block lg:flex w-full gap-5 lg:h-screen p-5 lg:p-10 place-items-center">
         <div className="w-full h-full border border-white flex justify-center items-center">
-          <img src="images/portfolio.jpeg" alt="G-man254" className="w-[150px] h-[130px] rounded-4xl lg:w-full lg:h-[300px] border-2 lg:rounded-2xl"/>
+          <img src="images/portfolio.jpeg" alt="G-man254" className="w-[150px] h-[130px] rounded-4xl lg:w-[500px] lg:h-[300px] border-2 lg:rounded-2xl"/>
         </div>
         <div className="px-10 lg:px-20">
           <div className="text-center">
