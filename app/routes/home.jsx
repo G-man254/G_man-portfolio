@@ -11,20 +11,20 @@ export function meta() {
 
 export default function Home() {
   return (
-    <main className="bg-gray-900 pb-5 lg:pb-5 h-fit">
-      <div className="block lg:flex w-full gap-5 lg:h-[80vh] place-items-center">
-        <div className="w-full h-full flex border justify-center items-center py-2">
-          <img src="images/portfolio.jpeg" alt="G-man254" className="w-[150px] h-[130px] rounded-4xl lg:w-[400px] lg:h-[280px] border-2 lg:rounded-[50%]"/>
+    <main className="bg-gray-900 pb-5 lg:pb-5 min-h-full">
+      <div className="blck lg:flex w-full gap-5 lg:h-[80vh] place-items-center">
+        <div className="w-full h-full flex justify-center items-center py-2 px-2">
+          <img src="images/portfolio.jpeg" alt="G-man254" className="h-[150px] w-[150px] mt-5 lg:mt-20 object-cover rounded-full lg:w-[400px] lg:h-[280px] border-2 lg:rounded-[50%] circle-reveal"/>
         </div>
         <div className="px-10 lg:px-20">
           <div className="text-center">
-            <h1 className="text-4xl md:text-6xl mt-5 lg:text-6xl animate-pulse z-0">Dennis Gitau Kariuki</h1>
+            <h1 className="text-4xl md:text-6xl mt-5 lg:text-6xl animate-pulse">Dennis Gitau Kariuki</h1>
             <p className="uppercase text-lg md:text-xl mt-5">full-stack developer | ai enthusiast</p>
 
           </div>
           {/* <p>A passionate and dedicated junior web developer propelled by the ever evolving world of technology and its unlimited possibilities.</p> */}
 
-          <p className="text-lg mt-8 xl:text-xl">I'm a full stack developer with a passion for building innovative solutions using adavanced technologies. I'm always eager to learn and explore new ideas about Artificial Intelligence and machine learning. I'm an avid learner of new programming languages and technologies, always seeking opportunities to apply my skills in real-world projects with a championing spirit to excel and I'm excited to share my skills and experience with you.</p>
+          <p className="text-lg mt-8 xl:text-xl">I'm a full stack developer with a passion for building innovative solutions using advanced technologies. I'm always eager to learn and explore new ideas about Artificial Intelligence and machine learning. I'm an avid learner of new programming languages and technologies, always seeking opportunities to apply my skills in real-world projects with a championing spirit to excel and I'm excited to share my skills and experience with you.</p>
           <Button path="/about" text = "About me"/>
         </div>
       </div>

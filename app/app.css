@@ -12,4 +12,19 @@ body {
   @media (prefers-color-scheme: dark) {
     color-scheme: dark;
   }
+
+}
+
+@keyframes circleReveal {
+  0% {
+    transform: scaleX(0.12);
+  }
+
+  100% {
+    transform: scaleX(1);
+  }
+}
+
+.circle-reveal {
+  animation: circleReveal 1.2s cubic-bezier(0.65, 0, 0.35, 1) forwards;
 }
