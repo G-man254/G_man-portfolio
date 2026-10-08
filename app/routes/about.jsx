@@ -219,12 +219,10 @@ export default function About() {
             </div>
           </div>
 
-          {/* Profile card */}
           <div className="relative">
             <div className="absolute -inset-4 rounded-[2rem] bg-gradient-to-r from-blue-500/20 to-purple-500/20 blur-2xl" />
 
             <div className="relative overflow-hidden rounded-[2rem] border border-white/10 bg-zinc-900/80 p-3 shadow-2xl backdrop-blur">
-              {/* Replace this div with your actual image */}
               <div className="flex aspect-[4/5] items-center justify-center overflow-hidden rounded-[1.5rem] bg-gradient-to-br from-zinc-800 via-zinc-900 to-black">
                 <div className="text-center">
                   <div className="mx-auto mb-5 flex h-28 w-28 items-center justify-center rounded-full border border-white/10 bg-white/5">

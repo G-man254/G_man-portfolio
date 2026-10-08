@@ -11,8 +11,8 @@ export function meta() {
 
 export default function Home() {
   return (
-    <main className="bg-gray-900 pb-5 lg:pb-5 min-h-full">
-      <div className="blck lg:flex w-full gap-5 lg:h-[80vh] place-items-center">
+    <main className="bg-gray-900 pb-5 lg:pb-5 min-h-screen">
+      <div className="lg:grid lg:grid-cols-[0.5fr_1.5fr] w-full gap-5 lg:h-[80vh] items-center">
         <div className="w-full h-full flex justify-center items-center py-2 px-2">
           <img src="images/portfolio.jpeg" alt="G-man254" className="h-[150px] w-[150px] mt-5 lg:mt-20 object-cover rounded-full lg:w-[400px] lg:h-[280px] border-2 lg:rounded-[50%] circle-reveal"/>
         </div>
